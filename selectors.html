@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple selector</title>
+        <style>
+            h1{
+                color: aqua;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: brown;
+                border: 10px solid black; 
+            }
+            #first{
+                color: blue;
+                font-style: italic;
+                background-color: aquamarine;
+                border: 10px solid black;
+            }
+            .c1{
+                color:brown;
+                background-color: blue;
+                border: 10px solid black;
+                margin-top: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>this is simple selector</h1>
+        <div id="first">good morning</div>
+        <h1 class="c1">this is bueatiful day</h1>
+        <h2 class="c1">this is nice day</h2>
+        <p class="c1">this is good day</p>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>combinator selector</title>
+        <style>
+            div~p{
+                color:aqua;
+                background-color: red;
+                border: 10px solid black;/*combinator selectos*/
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>combinator selectors</p>
+           
+        </div>
+        <p>css selectors</p>
+        <h1>combinator selectors</h1>
+        <p>css selectors</p>
+    </body>
+</html>
+
+
